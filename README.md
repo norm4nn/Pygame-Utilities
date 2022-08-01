@@ -62,4 +62,4 @@ class Bar methods:
 ```
 
 #### DISCLAIMER ####
-I'm not author of the font which I'm using in this project, it comes from [This site]([https://www.google.com](https://www.1001fonts.com/arcadeclassic-font.html))
+I'm not author of the font which I'm using in this project, it comes from [this site](https://www.1001fonts.com/arcadeclassic-font.html)
