@@ -56,6 +56,8 @@ class Bar arguments:
           as HUD name, color - (RGB: 3-element tuple or hex code) color of status bar, scale - (FLOAT) it sets size of HUD in this specific way (48*scale, 16*scale)
 
 class Bar methods:
-      .draw(window) - takes surface as argument and displays Bar HUD on it
-      .change_value(change) - takes signed integer which is adding to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
+```
+          .draw(window) - takes surface as argument and displays Bar HUD on it
+          .change_value(change) - takes signed integer which is adding to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
+```
                   
