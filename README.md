@@ -10,4 +10,11 @@ The purpose of creating this small 'extension' is to make my future pygame proje
 - **Text Buttons**
 - **Check Boxes**
 
+<p float="left">
+  <img src="images/img1.png" width="300" />
+  <img src="images/img3.png" height="300" /> 
+  <img src="images/img2.png" height="300" />
+  <img src="images/img4.png" width="300" />
+</p>
+
 
