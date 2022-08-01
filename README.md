@@ -60,4 +60,6 @@ class Bar methods:
           .draw(window) - takes surface as argument and displays Bar HUD on it
           .change_value(change) - takes signed integer which is added to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
 ```
-                  
+
+#### DISCLAIMER ####
+I'm not author of the font which I'm using in this project, it comes from [This site]([https://www.google.com](https://www.1001fonts.com/arcadeclassic-font.html)
