@@ -58,6 +58,6 @@ class Bar arguments:
 class Bar methods:
 ```
           .draw(window) - takes surface as argument and displays Bar HUD on it
-          .change_value(change) - takes signed integer which is adding to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
+          .change_value(change) - takes signed integer which is added to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
 ```
                   
