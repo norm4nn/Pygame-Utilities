@@ -94,7 +94,10 @@ class Popup methods:
 ```
       .draw(window) - takes surface as argument and displays Popup if its status is opened
       .
+```
 
+### WORK IN PROGRESS ###
+I'm still writing missing part of docs.
 
 #### DISCLAIMER ####
 I'm not author of the font which I'm using in this project, it comes from [this site](https://www.1001fonts.com/arcadeclassic-font.html)
