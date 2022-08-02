@@ -61,5 +61,40 @@ class Bar methods:
           .change_value(change) - takes signed integer which is added to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
 ```
 
+#### Pop-up Table ### 
+To display:
+```python
+from PygUtilities.popup import Popup
+
+
+pygame.init()
+window = pygame.display.set_mode((1280, 720))
+
+popup = Popup(0,0, 100, 100)
+
+if __name__=='__main__':
+  run = True
+  while run:
+    for event in pygame.event.get():
+      if event.type == pygame.QUIT:
+        run = False
+      if event.key == pygame.K_e:
+        popup1.change_status()
+      
+      popup.draw(window)
+      pygame.display.update()
+    
+  pygame.quit()
+```
+This specific code displays popup window after you click 'E' key.
+
+class Popup takes same arguments as Rect class which is part of pygame module.
+
+class Popup methods:
+```
+      .draw(window) - takes surface as argument and displays Popup if its status is opened
+      .
+
+
 #### DISCLAIMER ####
 I'm not author of the font which I'm using in this project, it comes from [this site](https://www.1001fonts.com/arcadeclassic-font.html)
