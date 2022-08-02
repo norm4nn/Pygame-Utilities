@@ -52,13 +52,16 @@ class Bar arguments:
           *args (same as Rect class from pygame): (position_x of upper-left corner of HUD, position_y of upper-left corner of HUD,
                   width of HUD, height of HUD)
                   
-          **kwargs: (cap - (INTEGER) the maximum value of points in status bar, name - (STRING) two first letters will be displaying 
-          as HUD name, color - (RGB: 3-element tuple or hex code) color of status bar, scale - (FLOAT) it sets size of HUD in this specific way (48*scale, 16*scale)
+          **kwargs: (cap - (INTEGER) the maximum value of points in status bar, 
+          name - (STRING) two first letters will be displaying as HUD name,
+          color - (RGB: 3-element tuple or hex code) color of status bar,
+          scale - (FLOAT) it sets size of HUD in this specific way (48*scale, 16*scale)
 
 class Bar methods:
 ```
           .draw(window) - takes surface as argument and displays Bar HUD on it
-          .change_value(change) - takes signed integer which is added to current value of status, this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
+          .change_value(change) - takes signed integer which is added to current value of status, 
+          this method also updates length of bar to be propotional to (current_value/cap_calue) fraction 
 ```
 
 #### Pop-up Table ### 
@@ -92,8 +95,12 @@ class Popup takes same arguments as Rect class which is part of pygame module.
 
 class Popup methods:
 ```
-      .draw(window) - takes surface as argument and displays Popup if its status is opened
-      .
+      .draw(window) - takes surface as argument and displays Popup if its status is opened.
+      .clicked(mouse_pos) - takes tuple with 2 integer elements, which should be current mouse position. 
+      If the Popup table is opened this method takes action which depends on clicked content.
+      .change_status() - takes no arguments and and changes status of popup, which mean:
+      -if it was closed, now opens up 
+      -if it was opened, now closes down
 ```
 
 ### WORK IN PROGRESS ###
