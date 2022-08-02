@@ -99,8 +99,8 @@ class Popup **methods**:
       .clicked(mouse_pos) - takes tuple with 2 integer elements, which should be current mouse position. 
       If the Popup table is opened this method takes action which depends on clicked content.
       .change_status() - takes no arguments and and changes status of popup, which mean:
-      -if it was closed, now opens up 
-      -if it was opened, now closes down
+          -if it was closed, now opens up 
+          -if it was opened, now closes down
 ```
 
 ### WORK IN PROGRESS ###
