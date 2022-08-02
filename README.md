@@ -81,6 +81,8 @@ if __name__=='__main__':
     for event in pygame.event.get():
       if event.type == pygame.QUIT:
         run = False
+      if event.type == pygame.MOUSEBUTTONDOWN:
+        popup.clicked(pygame.mouse.get_pos()
       if event.key == pygame.K_e:
         popup1.change_status()
       
